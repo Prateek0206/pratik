@@ -169,5 +169,8 @@
 
 .pfp-photo {
   border-radius: 50%;
-  height: 32px;
+  height: 34px;
+  width: 34px;
+  object-fit: cover;
+  object-position: center;
 }
