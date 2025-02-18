@@ -93,6 +93,10 @@
 
 }
 
+.middle_section:focus input{
+  border:none;
+}
+
 .search-button {
   height: 40px;
   width: 66px;
