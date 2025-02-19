@@ -42,7 +42,7 @@ body {
   }
 }
 
-@media(max-width:480px){
+@media(max-width:768px){
   .grid{
     display: flex;
     flex-direction: column;
@@ -53,12 +53,21 @@ body {
     
   }
 
-  
-  .sidebar{
-    display: none;
+  .grid .thumbnail{
+
+    width: 100dvw;
+
   }
+
+  .title, .author, .stats{
+    font-size: 30rem;
+  }
+
+  
+  
   .video_preview{
-    margin-bottom: 100px;
+    margin-bottom: 280px;
+    
     
     width: 100%;
 
@@ -67,7 +76,7 @@ body {
  
 }
 
-@media(min-width:481px) and (max-width:999px){
+@media(min-width:769) and (max-width:999px){
   .grid{
     grid-template-columns: 1fr 1fr 1fr;
   }
